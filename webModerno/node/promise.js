@@ -1,8 +1,9 @@
 function falar(seg, text) {
+  const cont = 1
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve(text)
-    }, seg * 1000);
+    }, seg * 1000)
   })
 }
 
