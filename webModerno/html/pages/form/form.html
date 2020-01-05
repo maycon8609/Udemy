@@ -1,0 +1,50 @@
+<link rel="stylesheet" href="style.css">
+
+<body class="bd">
+  <div class="container">
+    <h1>Form</h1>
+
+    <form action="http://localhost:3003/usuarios" method="POST" class="pad">
+
+      <label for="nome">Nome</label><br>
+      <input type="text" name="nome" class="header"><br>
+
+      <label for="password">Password</label><br>
+      <input type="password" name="senha" class="header">
+
+      <textarea name="bio" cols="30" rows="10" class="ct bl"></textarea>
+
+      <div class="ct">
+        <input type="radio" name="tipo" value="Admin">Admin
+        <input type="radio" name="tipo" value="Regular">Regular
+        <input type="radio" name="tipo" value="Teste">Teste
+      </div>
+
+      <div>
+        <input type="checkbox" name="Ativo" checked>Ativo
+      </div>
+
+      <select name="estado" class="ct">
+        <option>Selecione</option>
+        <option value="PI"> PI </option>
+        <option value="MA"> MA </option>
+        <option value="MT"> MT </option>
+        <option value="BH"> BH </option>
+      </select>
+
+      <select name="Interesses" class="ct bl" multiple size="5">
+        <option value="C"> C </option>
+        <option value="C#"> C# </option>
+        <option value="C++"> C++ </option>
+        <option value="GO"> GO </option>
+        <option value="javaScript"> javaScript </option>
+        <option value="Java"> Java </option>
+        <option value="Python"> Python </option>
+      </select>
+
+      <button>Incluir</button>
+    </form>
+
+  </div>
+
+</body>

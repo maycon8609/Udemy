@@ -11,3 +11,4 @@ falar(2, 'promise')
   .then(frase => frase.concat(' in js '))
   .then(frase => console.log(frase))
   .catch(err => console.log(err))
+
